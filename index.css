@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+body	{
+	background-color: #F8F8F8;
+	font-family: 'Cormorant Garamond', serif;
+	padding: 100px;
+	
+}
+header {
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:	space-between; 
+}
+
+.left {
+	height: 200px;
+	display: inline-block;
+}
+.right {
+	
+	display: inline-block;
+}
+.right a {
+	float: right;
+	padding: 10px;
+}
+@media only screen and (max-width: 1200px) {
+	.right a {
+		padding-left: 0;
+		float: left;
+	}
+}
